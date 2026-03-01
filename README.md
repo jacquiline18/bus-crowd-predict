@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Smart Bus Crowd Prediction 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Smart Bus Crowd Prediction is a prototype system that predicts how crowded a bus will be before it arrives at a stop. The goal is to help passengers make better travel decisions and reduce overcrowding in public transportation.
 
-In the project directory, you can run:
+By analyzing historical bus data and passenger patterns, the system estimates the crowd level and displays whether the bus will be **Low, Medium, or High crowd**.
 
-### `npm start`
+## Problem
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Public buses often become overcrowded, making travel uncomfortable and inefficient. Passengers usually have no way of knowing how crowded a bus will be before boarding.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Solution
 
-### `npm test`
+This project predicts bus crowd levels using simple data analysis and machine learning techniques. It provides users with an estimate of crowd density so they can choose a less crowded bus or travel time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+* Predict bus crowd levels (Low / Medium / High)
+* Simple and easy-to-use interface
+* Data visualization for crowd patterns
+* Prototype crowd prediction model
+* Helps improve passenger travel planning
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Python
+* Pandas
+* Scikit-learn
+* Matplotlib
+* HTML / CSS (for simple interface)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How It Works
 
-### `npm run eject`
+1. Collect bus travel data such as passenger count and time.
+2. Process and clean the dataset.
+3. Train a simple prediction model.
+4. Predict crowd level based on input conditions.
+5. Display the predicted crowd level to the user.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Future Improvements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Real-time bus tracking integration
+* Mobile application for passengers
+* GPS-based crowd estimation
+* Integration with public transport APIs
+* More accurate machine learning models
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Status
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is a **prototype developed for a hackathon / academic project** to demonstrate how crowd prediction can improve public transport systems.
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Jacquiline Joshua
